@@ -689,8 +689,8 @@ impl LiteSVM {
             &compute_budget.to_budget(),
             _enable_register_tracing,
         );
-        let config = self.accounts.environments.program_runtime_v1.get_config();
-        println!("config: {:?}", config);
+        // let config = self.accounts.environments.program_runtime_v1.get_config();
+        // println!("config: {:?}", config);
         self.accounts.environments.program_runtime_v1 = Arc::new(program_runtime_v1);
         self.accounts.environments.program_runtime_v2 = Arc::new(program_runtime_v2);
     }
@@ -973,10 +973,10 @@ impl LiteSVM {
                 "Unsupported loader: {loader_id}"
             )));
         };
-
+        let time_log = &mut LoadProgramMetrics::default();
         let mut loaded_program = solana_bpf_loader_program::load_program_from_bytes(
             None,
-            &mut LoadProgramMetrics::default(),
+            time_log,
             program_bytes,
             loader_id,
             program_size,
@@ -986,7 +986,7 @@ impl LiteSVM {
         )
         .map_err(LiteSVMError::from)?;
         loaded_program.effective_slot = current_slot;
-
+        println!("time_log: {:#?}",time_log);
         self.accounts
             .programs_cache
             .replenish(program_id, Arc::new(loaded_program));
