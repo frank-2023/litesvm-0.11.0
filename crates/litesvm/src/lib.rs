@@ -986,7 +986,7 @@ impl LiteSVM {
         )
         .map_err(LiteSVMError::from)?;
         loaded_program.effective_slot = current_slot;
-        println!("time_log: {:#?}",time_log);
+        // println!("time_log: {:#?}",time_log);
         self.accounts
             .programs_cache
             .replenish(program_id, Arc::new(loaded_program));
@@ -1002,7 +1002,7 @@ impl LiteSVM {
         program_id: impl Into<Address>,
         program_bytes: &[u8],
     ) -> Result<(), LiteSVMError> {
-        self.add_program_internal::<false>(program_id, program_bytes, &bpf_loader_upgradeable::id())
+        self.add_program_internal::<true>(program_id, program_bytes, &bpf_loader_upgradeable::id())
     }
 
     /// Adds an SBF program with a specific loader to match mainnet CU behavior.
