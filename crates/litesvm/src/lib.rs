@@ -689,7 +689,8 @@ impl LiteSVM {
             &compute_budget.to_budget(),
             _enable_register_tracing,
         );
-
+        let config = self.accounts.environments.program_runtime_v1.get_config();
+        println!("config: {:?}", config);
         self.accounts.environments.program_runtime_v1 = Arc::new(program_runtime_v1);
         self.accounts.environments.program_runtime_v2 = Arc::new(program_runtime_v2);
     }

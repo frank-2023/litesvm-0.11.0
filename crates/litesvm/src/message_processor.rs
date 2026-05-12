@@ -45,7 +45,7 @@ pub(crate) fn process_message<'ix_data>(
         } else {
             invoke_context.process_instruction(&mut compute_units_consumed, execute_timings)
         };
-        println!("execute_timings: {:?}",execute_timings);
+        // println!("execute_timings: {:?}",execute_timings);
 
         *accumulated_consumed_units =
             accumulated_consumed_units.saturating_add(compute_units_consumed);
