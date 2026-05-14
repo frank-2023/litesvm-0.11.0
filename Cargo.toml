@@ -10,7 +10,7 @@ license = "Apache-2.0"
 repository = "https://github.com/LiteSVM/litesvm"
 rust-version = "1.86.0"
 [patch.crates-io]
-solana-program-runtime = {git="https://github.com/frank-2023/program-runtime",rev = "b9c8c3f97fe1f975a7a8d4a975a5554716b86130",package="solana-program-runtime"}
+solana-program-runtime = {git="https://github.com/frank-2023/program-runtime",rev = "61ea559bc155e36239c371610b0f03d088958bd8",package="solana-program-runtime"}
 [workspace.dependencies]
 agave-feature-set = "3.1.0"
 agave-precompiles = "3.1.0"
@@ -66,7 +66,7 @@ solana-program-error = "3.0"
 solana-program-option = "3.0"
 solana-program-pack = "3.0"
 # solana-program-runtime = "3.0"
-solana-program-runtime = {git="https://github.com/frank-2023/program-runtime",rev = "b9c8c3f97fe1f975a7a8d4a975a5554716b86130",package="solana-program-runtime", features = ["metrics"]}
+solana-program-runtime = {git="https://github.com/frank-2023/program-runtime",rev = "61ea559bc155e36239c371610b0f03d088958bd8",package="solana-program-runtime", features = ["metrics"]}
 solana-rent = "3.0"
 solana-sdk-ids = "3.0"
 solana-secp256k1-program = "3.0"
