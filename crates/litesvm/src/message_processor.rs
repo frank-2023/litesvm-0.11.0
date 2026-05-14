@@ -36,6 +36,8 @@ pub(crate) fn process_message<'ix_data>(
             })?;
 
         let mut compute_units_consumed = 0;
+        println!("is_precompile: {:?}",invoke_context.is_precompile(program_id));
+        println!("program_id: {:?}",program_id);
         let result = if invoke_context.is_precompile(program_id) {
             invoke_context.process_precompile(
                 program_id,
