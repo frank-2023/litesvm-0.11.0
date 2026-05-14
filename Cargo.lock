@@ -49,7 +49,7 @@ dependencies = [
  "solana-hash 3.1.0",
  "solana-pubkey 3.0.0",
  "solana-sha256-hasher",
- "solana-svm-feature-set",
+ "solana-svm-feature-set 3.1.11",
 ]
 
 [[package]]
@@ -108,7 +108,7 @@ dependencies = [
  "solana-loader-v3-interface",
  "solana-poseidon",
  "solana-program-entrypoint",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-sbpf",
  "solana-sdk-ids",
@@ -116,15 +116,15 @@ dependencies = [
  "solana-sha256-hasher",
  "solana-stable-layout",
  "solana-stake-interface",
- "solana-svm-callback",
- "solana-svm-feature-set",
- "solana-svm-log-collector",
- "solana-svm-measure",
- "solana-svm-timings",
- "solana-svm-type-overrides",
+ "solana-svm-callback 3.1.11",
+ "solana-svm-feature-set 3.1.11",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-measure 3.1.11",
+ "solana-svm-timings 3.1.11",
+ "solana-svm-type-overrides 3.1.11",
  "solana-sysvar",
  "solana-sysvar-id",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
  "thiserror 2.0.18",
 ]
 
@@ -1829,7 +1829,7 @@ dependencies = [
  "solana-program-error",
  "solana-program-option",
  "solana-program-pack",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.14",
  "solana-rent 3.1.0",
  "solana-sdk-ids",
  "solana-secp256k1-program",
@@ -1839,16 +1839,16 @@ dependencies = [
  "solana-slot-hashes",
  "solana-slot-history",
  "solana-stake-interface",
- "solana-svm-callback",
- "solana-svm-log-collector",
- "solana-svm-timings",
- "solana-svm-transaction",
+ "solana-svm-callback 3.1.11",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-timings 3.1.11",
+ "solana-svm-transaction 3.1.11",
  "solana-system-interface 2.0.0",
  "solana-system-program",
  "solana-sysvar",
  "solana-sysvar-id",
  "solana-transaction",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
  "solana-transaction-error",
  "solana-vote-interface 5.1.1",
  "spl-associated-token-account-interface",
@@ -1900,7 +1900,7 @@ dependencies = [
  "solana-slot-history",
  "solana-stake-interface",
  "solana-transaction",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
  "solana-transaction-error",
 ]
 
@@ -2984,16 +2984,16 @@ dependencies = [
  "solana-loader-v4-interface",
  "solana-packet",
  "solana-program-entrypoint",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-sbpf",
  "solana-sdk-ids",
- "solana-svm-feature-set",
- "solana-svm-log-collector",
- "solana-svm-measure",
- "solana-svm-type-overrides",
+ "solana-svm-feature-set 3.1.11",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-measure 3.1.11",
+ "solana-svm-type-overrides 3.1.11",
  "solana-system-interface 2.0.0",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
 ]
 
 [[package]]
@@ -3007,7 +3007,7 @@ dependencies = [
  "solana-compute-budget-program",
  "solana-hash 3.1.0",
  "solana-loader-v4-program",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-sdk-ids",
  "solana-system-program",
@@ -3054,7 +3054,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "98426b2f7788c089f4ab840347bff55901e65ceb5d76b850194f0802a733cd4e"
 dependencies = [
  "solana-fee-structure",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
 ]
 
 [[package]]
@@ -3073,7 +3073,7 @@ dependencies = [
  "solana-packet",
  "solana-pubkey 3.0.0",
  "solana-sdk-ids",
- "solana-svm-transaction",
+ "solana-svm-transaction 3.1.11",
  "solana-transaction-error",
  "thiserror 2.0.18",
 ]
@@ -3095,7 +3095,7 @@ version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "688491544a91b94fcb17cffb5cc4dca4be93bc96460fa27325a404c24b584130"
 dependencies = [
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
 ]
 
 [[package]]
@@ -3221,7 +3221,7 @@ checksum = "487e4ba57d889e2ecf94a0cac3a3f385fe26d17425aaef3514b79975af2b5d7f"
 dependencies = [
  "agave-feature-set",
  "solana-fee-structure",
- "solana-svm-transaction",
+ "solana-svm-transaction 3.1.11",
 ]
 
 [[package]]
@@ -3395,14 +3395,14 @@ dependencies = [
  "solana-loader-v3-interface",
  "solana-loader-v4-interface",
  "solana-packet",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-sbpf",
  "solana-sdk-ids",
- "solana-svm-log-collector",
- "solana-svm-measure",
- "solana-svm-type-overrides",
- "solana-transaction-context",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-measure 3.1.11",
+ "solana-svm-type-overrides 3.1.11",
+ "solana-transaction-context 3.1.11",
 ]
 
 [[package]]
@@ -3583,17 +3583,61 @@ dependencies = [
  "solana-slot-hashes",
  "solana-stable-layout",
  "solana-stake-interface",
- "solana-svm-callback",
- "solana-svm-feature-set",
- "solana-svm-log-collector",
- "solana-svm-measure",
- "solana-svm-timings",
- "solana-svm-transaction",
- "solana-svm-type-overrides",
+ "solana-svm-callback 3.1.11",
+ "solana-svm-feature-set 3.1.11",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-measure 3.1.11",
+ "solana-svm-timings 3.1.11",
+ "solana-svm-transaction 3.1.11",
+ "solana-svm-type-overrides 3.1.11",
  "solana-system-interface 2.0.0",
  "solana-sysvar",
  "solana-sysvar-id",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "solana-program-runtime"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
+dependencies = [
+ "base64 0.22.1",
+ "bincode",
+ "itertools 0.12.1",
+ "log",
+ "percentage",
+ "rand 0.8.5",
+ "serde",
+ "solana-account",
+ "solana-account-info",
+ "solana-clock",
+ "solana-epoch-rewards",
+ "solana-epoch-schedule",
+ "solana-fee-structure",
+ "solana-hash 3.1.0",
+ "solana-instruction",
+ "solana-last-restart-slot",
+ "solana-loader-v3-interface",
+ "solana-program-entrypoint",
+ "solana-pubkey 3.0.0",
+ "solana-rent 3.1.0",
+ "solana-sbpf",
+ "solana-sdk-ids",
+ "solana-slot-hashes",
+ "solana-stable-layout",
+ "solana-stake-interface",
+ "solana-svm-callback 3.1.14",
+ "solana-svm-feature-set 3.1.14",
+ "solana-svm-log-collector 3.1.14",
+ "solana-svm-measure 3.1.14",
+ "solana-svm-timings 3.1.14",
+ "solana-svm-transaction 3.1.14",
+ "solana-svm-type-overrides 3.1.14",
+ "solana-system-interface 2.0.0",
+ "solana-sysvar",
+ "solana-sysvar-id",
+ "solana-transaction-context 3.1.14",
  "thiserror 2.0.18",
 ]
 
@@ -3875,10 +3919,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-svm-callback"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
+dependencies = [
+ "solana-account",
+ "solana-clock",
+ "solana-precompile-error",
+ "solana-pubkey 3.0.0",
+]
+
+[[package]]
 name = "solana-svm-feature-set"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5addc8fc7beb262aed2df0c34322a04a1b07b82d35fac0a34cd01f5263f7e971"
+
+[[package]]
+name = "solana-svm-feature-set"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
 
 [[package]]
 name = "solana-svm-log-collector"
@@ -3890,16 +3950,39 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-svm-log-collector"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
+dependencies = [
+ "log",
+]
+
+[[package]]
 name = "solana-svm-measure"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d8bc239ef12213c45a4077799a154f340b290938973ad11dc4aaedee8fe39319"
 
 [[package]]
+name = "solana-svm-measure"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
+
+[[package]]
 name = "solana-svm-timings"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "df7bc8099ec662531e751607c096a2b336502b592ddd2cf584ec8312fd499fa8"
+dependencies = [
+ "eager",
+ "enum-iterator",
+ "solana-pubkey 3.0.0",
+]
+
+[[package]]
+name = "solana-svm-timings"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
 dependencies = [
  "eager",
  "enum-iterator",
@@ -3921,10 +4004,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-svm-transaction"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
+dependencies = [
+ "solana-hash 3.1.0",
+ "solana-message",
+ "solana-pubkey 3.0.0",
+ "solana-sdk-ids",
+ "solana-signature",
+ "solana-transaction",
+]
+
+[[package]]
 name = "solana-svm-type-overrides"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5093201eaac4a41edcaab9fc0060712d5bce2d2a0ca6134d18e9bcac2b3739bc"
+dependencies = [
+ "rand 0.8.5",
+]
+
+[[package]]
+name = "solana-svm-type-overrides"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
 dependencies = [
  "rand 0.8.5",
 ]
@@ -3975,14 +4079,14 @@ dependencies = [
  "solana-nonce",
  "solana-nonce-account",
  "solana-packet",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-sdk-ids",
- "solana-svm-log-collector",
- "solana-svm-type-overrides",
+ "solana-svm-log-collector 3.1.11",
+ "solana-svm-type-overrides 3.1.11",
  "solana-system-interface 2.0.0",
  "solana-sysvar",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
 ]
 
 [[package]]
@@ -4054,6 +4158,22 @@ name = "solana-transaction-context"
 version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "15c4936df4b86a943ea6d552ca2c64fcc0d1a06dee2193cbf463eaedc372736d"
+dependencies = [
+ "bincode",
+ "serde",
+ "solana-account",
+ "solana-instruction",
+ "solana-instructions-sysvar",
+ "solana-pubkey 3.0.0",
+ "solana-rent 3.1.0",
+ "solana-sbpf",
+ "solana-sdk-ids",
+]
+
+[[package]]
+name = "solana-transaction-context"
+version = "3.1.14"
+source = "git+https://github.com/frank-2023/agave-3.1?rev=962c38286444725cfb8c56410ca43fe9a655bae4#962c38286444725cfb8c56410ca43fe9a655bae4"
 dependencies = [
  "bincode",
  "serde",
@@ -4150,14 +4270,14 @@ dependencies = [
  "solana-instruction",
  "solana-keypair",
  "solana-packet",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-pubkey 3.0.0",
  "solana-rent 3.1.0",
  "solana-sdk-ids",
  "solana-signer",
  "solana-slot-hashes",
  "solana-transaction",
- "solana-transaction-context",
+ "solana-transaction-context 3.1.11",
  "solana-vote-interface 4.0.4",
  "thiserror 2.0.18",
 ]
@@ -4183,9 +4303,9 @@ dependencies = [
  "num-derive",
  "num-traits",
  "solana-instruction",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-sdk-ids",
- "solana-svm-log-collector",
+ "solana-svm-log-collector 3.1.11",
  "solana-zk-sdk",
 ]
 
@@ -4237,9 +4357,9 @@ dependencies = [
  "num-derive",
  "num-traits",
  "solana-instruction",
- "solana-program-runtime",
+ "solana-program-runtime 3.1.11",
  "solana-sdk-ids",
- "solana-svm-log-collector",
+ "solana-svm-log-collector 3.1.11",
  "solana-zk-token-sdk",
 ]
 
