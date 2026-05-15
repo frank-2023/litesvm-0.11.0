@@ -3555,7 +3555,7 @@ dependencies = [
 [[package]]
 name = "solana-program-runtime"
 version = "3.1.11"
-source = "git+https://github.com/frank-2023/program-runtime?rev=d8fc3129499d0589d4ff3d428d8313c7c91231a2#d8fc3129499d0589d4ff3d428d8313c7c91231a2"
+source = "git+https://github.com/frank-2023/program-runtime?rev=6b70debb8256d05ee915797cd3b2514e200cfeaa#6b70debb8256d05ee915797cd3b2514e200cfeaa"
 dependencies = [
  "base64 0.22.1",
  "bincode",
